@@ -1,4 +1,4 @@
-name = "TG-MediaHost-Bot"
+name = "rdpserverssrdp"
 main = "worker.js"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
