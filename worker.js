@@ -1,4 +1,4 @@
-const TOKEN = ''; 
+const TOKEN = '7695029405:AAFRN2U5NRGYS-ZjpRc54xTxQdOSc0EeYtE'; 
 const WEBHOOK = '/endpoint';
 const SECRET = 'ENV_BOT_SECRET';
 const FALLBACK_UPLOAD_URL = "http://telegraph-7at.pages.dev/upload";
