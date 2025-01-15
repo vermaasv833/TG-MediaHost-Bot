@@ -1,0 +1,12 @@
+name = "TG-MediaHost-Bot"  # Your worker name
+main = "worker.js"  # The entry point of your worker script
+compatibility_date = "2023-12-18"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+TOKEN = "7695029405:AAFRN2U5NRGYS-ZjpRc54xTxQdOSc0EeYtE"   # Your Telegram Bot token
+WEBHOOK = "/endpoint" # The URL path the bot should listen for
+SECRET = "ENV_BOT_SECRET"  # Telegram Bot Secret Token.
+FALLBACK_UPLOAD_URL = "http://telegraph-7at.pages.dev/upload"  # The URL path of the fallback uploader
+DIRECT_UPLOAD_URL = "https://host.ashlynn-repo.workers.dev/?url=" # The URL path of the direct uploader
+CHANNEL_LINK = "https://t.me/Ashlynn_Repository" # The link to your telegram channel
